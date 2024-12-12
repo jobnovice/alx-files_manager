@@ -8,7 +8,7 @@ import redisClient from './utils/redis';
 
     setTimeout(async () => {
         console.log(await redisClient.get('myKey'));
-    	await redisClient.close();
+/*    	await redisClient.close();*/
     }, 1000*10)
 })();
 
