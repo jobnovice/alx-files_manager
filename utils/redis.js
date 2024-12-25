@@ -52,13 +52,6 @@ class RedisClient {
       throw err;
     }
   }
-  /*async close() {*/
-    /*try {*/
-      /*await this.client.quit();*/
-    /*} catch (err) {*/
-      /*console.error(`Error closing Redis client: ${err.message}`);*/
-    /*}*/
-  /*}*/
 }
 
 // Create and export an instance of RedisClient
